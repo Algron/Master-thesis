@@ -1,0 +1,21 @@
+.tabs {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid black; /* Thin black border around tabs */
+  background-color: #e7e7e7;
+  transition: background-color 0.3s;
+  font-size: medium; /* Larger text size */
+  font-weight: bold; /* Bold text */
+}
+
+.tabs button:hover {
+  background-color: #d7d7d7;
+}
